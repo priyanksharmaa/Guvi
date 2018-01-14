@@ -3,6 +3,8 @@ void main()
 {
  int n,nr,r,f=0;
  scanf("%d",&n);
+ if(n<=1000)
+ {
  r=n;
  while(r!=0)
   {
@@ -14,5 +16,9 @@ void main()
     printf("\nYes");
  else
     printf("\No");
+ }
+ else
+    printf("No u entered is more than 1000 ");
+
  getch();
 }
