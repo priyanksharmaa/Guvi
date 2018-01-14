@@ -15,7 +15,7 @@ void main()
  if(n==f)
     printf("\nYes");
  else
-    printf("\No");
+    printf("\nNo");
  }
  else
     printf("No u entered is more than 1000 ");
